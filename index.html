@@ -5,21 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hasaranga's Portfolio</title>
 	<link rel="icon" src="img\favpng_user-profile-icon-design.png" type="image/png">
-    <link rel="stylesheet" href="css\bootstrap-grid.css" type="text/css">
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/styles.css" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=Inknut+Antiqua:wght@300&display=swap" rel="stylesheet">
   </head>
 
   <body>
-  <nav>
-    <ul>
-<li> <a href="#contact">contact</a></li>
-<li>works </li>
-<li class="empty" </li>
-<li>experience </li>
-<li>behance</li>
-    </ul>
-  </nav>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand"href="#">Hasaranga</a>
+      <style media="screen">
+      .navbar .navbar-brand {
+        margin-left: 15px;
+       }
+      </style>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+   <span class="navbar-toggler-icon"></span>
+ </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+  <ul class="navbar-nav ms-auto">
+    <li class="nav-item"> <a class="nav-link" href=""> CONTACT </a></li>
+    <li class="nav-item"> <a class="nav-link" href=""> WORKS </a></li>
+    <li class="nav-item dropdown">
+       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+         Device
+       </a>
+       <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+         <li><a class="dropdown-item" href="#">Desktop</a></li>
+         <li><a class="dropdown-item" href="#">Mobile Phone</a></li>
+         <li><hr class="dropdown-divider"></li>
+         <li><a class="dropdown-item" href="#">No Device</a></li>
+       </ul>
+     </li>
+    <li class="nav-item"> <a class="nav-link" href=""> EXPERIENCE </a></li>
+    <li class="nav-item"> <a class="nav-link" href=""> BEHANCE </a></li>
+ </ul>
+     </div>
+</nav>
   <header>
     <div class="container">
       <div class="row">
